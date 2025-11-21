@@ -14,7 +14,7 @@ while True:
     os.system("clear") # or 'cls' instead of 'clear' on Windows
 
     hero.attack(enemy) # attack loop starts with hero
-    
+
     enemy.attack(hero) # enemy immediately counter-attacks
 
     # redraw updated healthbars after each exchange
