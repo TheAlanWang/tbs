@@ -27,7 +27,7 @@ hit Enter for the next iteration.
    python main.py
    ```
 4. Hit Enter to step through each round.
-5. Use `Ctrl+D` or `Ctrl+C` to exit.
+5. Use `Ctrl+C` to exit.
 
 ## Licenses
 

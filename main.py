@@ -21,13 +21,10 @@ while True:
     hero.healthbar.draw()
     enemy.healthbar.draw()
 
-    print("\nPress Enter key to fight or Ctrl+D/C to exit.")
+    print("\nPress Enter key to fight or Ctrl+C to exit.")
 
     try:
         input()
-    except EOFError:
-        print("\nSIGTERM received. Exiting.")
-        sys.exit(0)
     except KeyboardInterrupt:
         print("\nSIGINT received. Exiting.")
         sys.exit(0)
