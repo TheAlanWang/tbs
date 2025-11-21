@@ -1,8 +1,8 @@
 # Terminal Battle Sim
 
-A tiny Python OOP demo where two characters fight each other in the terminal. Characters,
+A Python OOP demo where two characters fight each other in the terminal. Characters,
 weapons, and a colored health bar each get their own class. The health bar uses ANSI colors and 
-fills with `#` and `_` as HP changes. Weapons define damage, the hero can swap them, and `main.py`
+fills with `#` and `_` as HP changes. Weapons define damage, the hero can change them, and `main.py`
 runs a loop that clears the screen, shows both bars, applies attacks, and waits for you to 
 hit Enter for the next iteration.
 
