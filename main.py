@@ -27,7 +27,8 @@ def main():
         else:
             print("Invalid choice, using default.")
     except ValueError:
-        print("Not a valid number, try again.")
+        print("Not a valid number.")
+        sys.exit(1)
 
     while True:
         clear_screen()
