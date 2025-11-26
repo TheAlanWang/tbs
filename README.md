@@ -29,6 +29,6 @@ hit Enter for the next iteration.
 4. Hit Enter to step through each round.
 5. Use `Ctrl+C` to exit.
 
-## Licenses
+## License
 
-This repository is dual licensed under the **MIT License** and the **WTFPL License**. You may use the project under either license.
+**WTFPL**.
