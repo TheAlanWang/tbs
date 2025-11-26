@@ -7,9 +7,16 @@ class Character:
         self.hp = hp
         self.max_hp = hp
         self.weapon = fists
-
-    def attack(self, target: "Character") -> None:
+    def die(self) -> None:
+        print(f"{self.__class__.__name__} has died!")
+    def hasDied(self) -> bool:
+        return self.hp<=0
+    def attack(self, target: "Character") -> bool:
         target.hp = max(target.hp - self.weapon.dmg, 0)
+        if target.hasDied():
+            target.die()
+            return True
+        return False
 
 class Hero(Character):
     def __init__(self, name: str, hp: int) -> None:
