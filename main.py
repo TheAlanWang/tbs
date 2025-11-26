@@ -1,5 +1,5 @@
 from character import Hero, Enemy
-from weapon import iron_sword, short_bow, war_hammer
+from weapon import WEAPON_CHOICES, iron_sword, short_bow, war_hammer
 import os
 import sys
 
@@ -13,7 +13,10 @@ def main():
     hero.equip(iron_sword)
 
     print("---- Choose weapon for hero ----")
-    print("1. Fists\n2. Iron Sword\n3. Short Bow\n4. War Hammer")
+    # print("1. Fists\n2. Iron Sword\n3. Short Bow\n4. War Hammer")
+    for idx, weapon in enumerate(WEAPON_CHOICES, start=1):
+        name = getattr(weapon, "name", str(weapon))
+        print(f"{idx}. {name}")
 
     try:
         choice = int(input("> "))
