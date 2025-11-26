@@ -1,12 +1,19 @@
 # 📝 Changelog
 
-_Last updated: November 26, 2025 at 18:55_
+_Last updated: November 26, 2025 at 19:24_
 
 ---
 
 
 ## 📅 2025-11-26
 
+- 🐛 **fix: exit loop on invalid input** `60dbe79` _by signalbean_
+- 🐛 **fix: handle non-numeric input in weapon selection** `bacb251` _by signalbean_
+- 🔧 **uh** `3be35cd` _by signalbean_
+- 📚 **docs: update readme** `27238ad` _by signalbean_
+- 👷 **ci: update pr template** `089dfae` _by signalbean_
+- 👷 **ci: add question template** `e4f0d84` _by signalbean_
+- 📚 **docs: update changelog** `829ae59` _by signalbean_
 - 🔀 **Merge pull request #8 from etaiami09-cmd/Death-Event** `ccc783e` _by Signal Bean_
 - 🔧 **Refactor weapon choice print statements and logic** `33bd6de` _by Signal Bean_
 - 🔧 **Refactor death check method and update messages** `b971c04` _by Signal Bean_
