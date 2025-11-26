@@ -1,10 +1,8 @@
 ## Description
-Explain what the PR does and why.
+Summarize what this PR changes or does.
 
-## Related Issues (if applicable)
-Link to any issues this PR addresses (e.g. #12).
+## Related Issues
+Reference any related issues or tickets (e.g. #12).
 
-## Changes Made
--  
--  
--  
+## Notes
+Add anything useful for reviewers.
